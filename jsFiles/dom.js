@@ -11,3 +11,8 @@ for( const blog of b){
 const c=document.getElementById('second-title');
 
 console.log(c);
+const d=document.getElementsByTagName('h3');
+
+for( let h of d){
+    console.log(h);
+}
